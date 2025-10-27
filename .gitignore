@@ -1,1 +1,39 @@
-/.DS_Store
+# === 🧱 基本忽略規則 ===
+node_modules/
+dist/
+.vscode/
+.DS_Store
+Thumbs.db
+
+
+# === 🎥 影片與大型素材 ===
+FuTsangChengYi/video/**/*.mp4
+FuTsangChengYi/video/**/*.mov
+FuTsangChengYi/video/**/*.avi
+FuTsangChengYi/video/**/*.mkv
+FuTsangChengYi/video/**/*.zip
+FuTsangChengYi/video/**/*.psd
+FuTsangChengYi/video/**/*.blend
+FuTsangChengYi/video/**/*.tif
+FuTsangChengYi/video/**/*.tiff
+FuTsangChengYi/video/**/*.hevc
+FuTsangChengYi/video/**/*.heif
+
+# === 🌀 VR 樓層景觀輸出（Pano2VR 匯出結果） ===
+FuTsangChengYi/vr/floor-views/**/tiles/
+FuTsangChengYi/vr/floor-views/**/*.png
+FuTsangChengYi/vr/floor-views/**/*.jpg
+FuTsangChengYi/vr/floor-views/**/*.jpeg
+FuTsangChengYi/vr/floor-views/**/*.tif
+FuTsangChengYi/vr/floor-views/**/*.tiff
+FuTsangChengYi/vr/floor-views/**/*.psd
+FuTsangChengYi/vr/floor-views/**/*.exr
+
+# === ✅ 保留必要檔案（每層樓的主設定） ===
+!FuTsangChengYi/vr/floor-views/**/index.html
+!FuTsangChengYi/vr/floor-views/**/pano.xml
+!FuTsangChengYi/vr/floor-views/**/pano2vr_player.js
+
+# === 🔒 其他雜項 ===
+*.log
+*.tmp
