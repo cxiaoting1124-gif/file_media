@@ -39,4 +39,5 @@ FuTsangChengYi/vr/floor-views/**/*.exr
 *.tmp
 
 # 在 .gitignore 最下方暫時加上
-!FuTsangChengYi/vr/floor-views/B3/**
+!FuTsangChengYi/vr/floor-views/B6/**
+
