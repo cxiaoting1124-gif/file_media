@@ -37,3 +37,5 @@ FuTsangChengYi/vr/floor-views/**/*.exr
 # === 🔒 其他雜項 ===
 *.log
 *.tmp
+
+!FuTsangChengYi/vr/floor-views/B5/**
